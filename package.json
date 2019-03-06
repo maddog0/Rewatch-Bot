@@ -1,0 +1,15 @@
+{
+  "name": "rewatch-bot",
+  "version": "1.0.0",
+  "description": "my first bot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sbit",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "node-schedule": "^1.3.0"
+  }
+}
