@@ -8,6 +8,8 @@ const Discord = require('discord.js');
 // Create an instance of a Discord client
 const client = new Discord.Client();
 
+const config = require("./config.json")
+
 // Set up Schedule object
 var schedule = require('node-schedule');
 var EpisodeCount = 7;
@@ -72,4 +74,4 @@ var j = schedule.scheduleJob('0 0 15 * * 2', function(){
 });
 
 // Log our bot in using the token from https://discordapp.com/developers/applications/me
-client.login('NTA0NjY4MjIyMDU0NzI3Njkz.DrIiZA.VZXUDuu7KViDbW7o3h2a3HxGdFU');
+client.login(config.token);
